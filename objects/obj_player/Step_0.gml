@@ -15,7 +15,7 @@ if(keyboard_check(ord("A")) && keyboard_check(ord("D"))) {
 }
 //  Player Jump using spacebar
 if(keyboard_check_pressed(vk_space) && grounded == true){
-	vsp = -18;
+	vsp = -25;
 	grounded = false;
 }
 

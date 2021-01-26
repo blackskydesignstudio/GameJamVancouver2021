@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "39e736d8-f376-46e0-9f0a-54fded0d7e8a",
-            "Value": {
-                "id": "3a7aaa17-4b51-4b7f-85fd-53571fd88d99",
-                "resourcePath": "objects\\object2\\object2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3aa159ea-f339-4af6-97c6-4a35b8f895c0",
             "Value": {
                 "id": "1e027b7a-8fdc-42db-9476-ff14d878105a",
@@ -207,11 +199,27 @@
             }
         },
         {
+            "Key": "cab909b0-b4e9-4c15-895f-fbe8802af517",
+            "Value": {
+                "id": "03c1eabc-8107-4d90-b859-8cd3b6ad3c1a",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "d1014f43-6adf-4cc0-a963-b2553b44684b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "dc22cbbd-bd70-488f-b6ea-3fa67a85f678",
+            "Value": {
+                "id": "9a43acb6-28c6-4784-b68d-da2e9bb55f45",
+                "resourcePath": "objects\\obj_ememy\\obj_ememy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
