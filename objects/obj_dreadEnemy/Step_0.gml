@@ -4,11 +4,8 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 	vsp += grav;	
 }
 
+if !place_meeting(x + 5, y, obj_player) x +=5;// controls the chasing of the player
 
-mp_potential_step_object(x + 10000, y, 4,obj_player)// X + 10000 is the location the 
-													// dread will try to walk to, our 
-													// game space is only 5000ish but i left it bigger if
-													// we add more to the level.
 //  ****** ENEMY COLLISIONS ******
 
 
