@@ -4,7 +4,9 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 	vsp += grav;	
 }
 
-if !place_meeting(x + 5, y, obj_player) x +=5;// controls the chasing of the player
+if !place_meeting(x + 5, y, obj_player) x +=2;// controls the chasing of the player
+											// to control how fast dread moves cahnge
+											// x+=2.
 
 //  ****** ENEMY COLLISIONS ******
 
