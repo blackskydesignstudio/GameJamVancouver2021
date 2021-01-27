@@ -4,9 +4,7 @@
 if (!place_meeting(x, y + 1, obj_wall)) {
 	vsp += grav;	
 }
-
-mp_potential_step(enemyLeft, y, 4, true)
-
+	
 //  ****** ENEMY COLLISIONS ******
 
 
