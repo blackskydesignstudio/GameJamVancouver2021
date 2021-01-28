@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "67f46d66-e545-4a05-b209-a894de537fad",
+            "Value": {
+                "id": "25d936bf-f2b6-4e35-8dbb-aa1dd56c291e",
+                "resourcePath": "sounds\\sou_Level1Music\\sou_Level1Music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7300184e-263e-4f72-81ca-966702593435",
             "Value": {
                 "id": "6e0c77a7-ca5c-4602-ac3b-be2719aee33f",
@@ -148,6 +156,14 @@
                 "id": "59184584-37fd-422a-a9be-5b67511471c5",
                 "resourcePath": "rooms\\room_MainGame\\room_MainGame.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "79242921-a3c1-49ac-8669-8b73dc578ad4",
+            "Value": {
+                "id": "e3bfb21d-b5d8-4fb3-9d05-f3be83153f1f",
+                "resourcePath": "objects\\obj_Level1Audio\\obj_Level1Audio.yy",
+                "resourceType": "GMObject"
             }
         },
         {
