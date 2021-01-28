@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "26df27a9-91dc-4b0d-a0b5-b0d355220102",
+            "Value": {
+                "id": "b65e6d31-0907-4cf2-a18d-1b87793bd54c",
+                "resourcePath": "objects\\StartButton\\StartButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "289afb7d-4026-44df-9241-e944224fc517",
             "Value": {
                 "id": "25771f49-c37c-44d2-a7c3-ab0081d4b3c8",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "73269637-c008-455c-a281-d8352d35846e",
+            "Value": {
+                "id": "85de4dd3-a471-4608-b8a9-158ac39e3b31",
+                "resourcePath": "objects\\obj_TitleScreenAudio\\obj_TitleScreenAudio.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "2b10cf2f-e959-49ed-af65-fefa089c8c9e",
@@ -151,11 +167,27 @@
             }
         },
         {
+            "Key": "85b9606e-5bff-42f1-b262-3555a5b51e9e",
+            "Value": {
+                "id": "fa23ada0-068a-4231-bc02-07718fce78ee",
+                "resourcePath": "views\\58eb8bb7-0e0b-4d96-b530-9e04fcb2e2db-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "900bc8f0-6174-40e0-bd14-386e0a9111bd",
             "Value": {
                 "id": "34bb5005-226a-4903-8949-7b4b80ef3913",
                 "resourcePath": "views\\900bc8f0-6174-40e0-bd14-386e0a9111bd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9ef9ba3a-7184-4d8f-a952-f0e7581125eb",
+            "Value": {
+                "id": "35fc4983-270c-4245-8058-66758ed753ea",
+                "resourcePath": "sounds\\m_TitleMusicLoop\\m_TitleMusicLoop.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -180,6 +212,14 @@
                 "id": "b313cb02-d236-4021-8275-364d7916a73d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9fea648-b63d-4618-8e5c-5a8429ef3bbc",
+            "Value": {
+                "id": "355e2780-1898-4666-b558-e62c00502a27",
+                "resourcePath": "sprites\\spr_StartButton\\spr_StartButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
