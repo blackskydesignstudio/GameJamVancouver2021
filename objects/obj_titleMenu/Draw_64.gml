@@ -6,7 +6,7 @@ draw_set_font(font_mainFont);
 draw_set_color(c_white);
 
 //  Align the menu text
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 
 // draw the menu items
