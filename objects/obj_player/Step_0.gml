@@ -1,5 +1,4 @@
 // when there is no input from the player, reutrn to an idle state
-state = PLAYERSTATE.IDLE;
 if (state == PLAYERSTATE.IDLE) {
 	sprite_index = spr_player;	
 }
@@ -24,11 +23,6 @@ if(keyboard_check_pressed(vk_space) && grounded == true){
 	vsp = -25;
 	grounded = false;
 	state = PLAYERSTATE.JUMPING;
-}
-// Player attack using the "M" key
-if (keyboard_check_pressed(ord("M")) && state != PLAYERSTATE.ATTACK_MEELE) {
-	state = PLAYERSTATE.ATTACK_MEELE;
-	sprite_index = spr_player1_attack;	
 }
 
 // ******  Player Gravity  ******
@@ -57,3 +51,6 @@ if(place_meeting(x, y + vsp, obj_wall)) {
 }
 
 y += vsp;
+
+//Temp function call used for debugging.  Uncomment to use.
+//show_debug_message(state);
