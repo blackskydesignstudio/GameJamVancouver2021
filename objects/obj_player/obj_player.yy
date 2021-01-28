@@ -61,7 +61,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "e753bb9e-0760-470a-a980-cef8435ed12c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "hitpoints",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "5240a80e-a8d0-4344-8e25-00b660172ba5",
     "visible": true

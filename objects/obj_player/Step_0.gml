@@ -54,3 +54,5 @@ y += vsp;
 
 //Temp function call used for debugging.  Uncomment to use.
 //show_debug_message(state);
+//function to show player hitpoints
+if(hitpoints<100)show_debug_message(hitpoints);
