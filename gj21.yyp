@@ -66,7 +66,7 @@
             "Key": "26df27a9-91dc-4b0d-a0b5-b0d355220102",
             "Value": {
                 "id": "b65e6d31-0907-4cf2-a18d-1b87793bd54c",
-                "resourcePath": "objects\\StartButton\\StartButton.yy",
+                "resourcePath": "objects\\obj_startButton\\obj_startButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -186,7 +186,7 @@
             "Key": "9ef9ba3a-7184-4d8f-a952-f0e7581125eb",
             "Value": {
                 "id": "35fc4983-270c-4245-8058-66758ed753ea",
-                "resourcePath": "sounds\\m_TitleMusicLoop\\m_TitleMusicLoop.yy",
+                "resourcePath": "sounds\\sou_TitleMusicLoop\\sou_TitleMusicLoop.yy",
                 "resourceType": "GMSound"
             }
         },

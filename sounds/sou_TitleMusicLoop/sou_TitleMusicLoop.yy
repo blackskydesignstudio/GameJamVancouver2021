@@ -2,7 +2,7 @@
     "id": "9ef9ba3a-7184-4d8f-a952-f0e7581125eb",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "m_TitleMusicLoop",
+    "name": "sou_TitleMusicLoop",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

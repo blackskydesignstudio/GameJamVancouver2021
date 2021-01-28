@@ -2,7 +2,7 @@
     "id": "26df27a9-91dc-4b0d-a0b5-b0d355220102",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "StartButton",
+    "name": "obj_startButton",
     "eventList": [
         {
             "id": "353a344e-a1f2-4250-891b-2bd4e317a86d",
