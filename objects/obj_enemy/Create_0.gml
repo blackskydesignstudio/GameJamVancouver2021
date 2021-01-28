@@ -4,6 +4,10 @@ grav = 0.1;  //height thta the enemy will jump lower number is
 			 // higher jump
 enemySpeed = 5; // variable to set enemy speed
 
+attackDamage = 10;
+
+
+
 // Basic enemy patrol variables 
 //enemyLeft = x - 255;
 //enemyPath = path_add();
