@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "26df27a9-91dc-4b0d-a0b5-b0d355220102",
-            "Value": {
-                "id": "b65e6d31-0907-4cf2-a18d-1b87793bd54c",
-                "resourcePath": "objects\\obj_startButton\\obj_startButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "289afb7d-4026-44df-9241-e944224fc517",
             "Value": {
                 "id": "25771f49-c37c-44d2-a7c3-ab0081d4b3c8",
@@ -276,6 +268,14 @@
                 "id": "1ec0aedd-1dd3-4536-aa66-551a42ae1811",
                 "resourcePath": "views\\ad3cf28e-94ba-4a20-becd-1f588b4e78da.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b5bf4cb9-6d3a-4968-b783-c7e92283bd6d",
+            "Value": {
+                "id": "825b76ac-759b-4d02-9a5e-8756994f90dc",
+                "resourcePath": "sprites\\spr_backgroundMenu1\\spr_backgroundMenu1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -10,6 +10,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 
 // draw the menu items
+if (menuVisable) {
 for(var i = 0; i < menuItems; i++) {
 	var txt = menu[i];
 	
@@ -23,4 +24,5 @@ for(var i = 0; i < menuItems; i++) {
 	 
 	draw_text(x2, y2, txt); // draw completed menu to screen
 	 
+}
 }

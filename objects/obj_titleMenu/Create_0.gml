@@ -7,6 +7,7 @@ menuItems = array_length_1d(menu);
 guiWidth = display_get_gui_width();
 guiHeight = display_get_gui_height();
 menuItemHeight = font_get_size(font_mainFont);
+menuVisable = true;
 
 // Menu cursor start place
 menu_cursor = 1;
@@ -14,4 +15,5 @@ menu_cursor = 1;
 // Enable/disable cursor control
 menu_control = true; 
 
+//  Var is store menu choice
 menuCommitted = -1;
