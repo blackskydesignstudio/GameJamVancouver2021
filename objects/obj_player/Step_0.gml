@@ -1,11 +1,17 @@
-
+// when there is no input from the player, reutrn to an idle state
+state = PLAYERSTATE.IDLE;
+if (state == PLAYERSTATE.IDLE) {
+	sprite_index = spr_player;	
+}
 
 //  ****** PLAYER MOVEMENT ******
 //  Left and right movement
 if(keyboard_check(ord("A"))) {
 	hsp = -7;	
+	state = PLAYERSTATE.WALK;
 }else if(keyboard_check(ord("D"))) {
 	hsp = 7;
+	state = PLAYERSTATE.WALK;
 } else {
 	hsp = 0; 	
 }
@@ -17,6 +23,12 @@ if(keyboard_check(ord("A")) && keyboard_check(ord("D"))) {
 if(keyboard_check_pressed(vk_space) && grounded == true){
 	vsp = -25;
 	grounded = false;
+	state = PLAYERSTATE.JUMPING;
+}
+// Player attack using the "M" key
+if (keyboard_check_pressed(ord("M")) && state != PLAYERSTATE.ATTACK_MEELE) {
+	state = PLAYERSTATE.ATTACK_MEELE;
+	sprite_index = spr_player1_attack;	
 }
 
 // ******  Player Gravity  ******
