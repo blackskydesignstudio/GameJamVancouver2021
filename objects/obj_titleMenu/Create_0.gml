@@ -10,3 +10,5 @@ menuItemHeight = font_get_size(font_mainFont);
 
 // Menu cursor start place
 menu_cursor = 1;
+
+menu_control = true; 
