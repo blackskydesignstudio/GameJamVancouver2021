@@ -5,9 +5,12 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 }
 
 // Enemy movement pathing
-
-mp_potential_step(obj_player.x, obj_player.y, enemySpeed, false);
-
+	mp_potential_step(obj_player.x, obj_player.y, enemySpeed, false);
+	
+//enemy attack
+	if distance_to_object(obj_player) < 20 {sprite_index = spr_enemy_attack}
+	else {sprite_index = spr_enemy}
+	
 	
 //  ****** ENEMY COLLISIONS ******
 //  Enemy collision with ground;
