@@ -2,6 +2,8 @@ hsp = 0;
 vsp = 0; 
 grav = 1;
 
+attackDamage = 20;
+
 hitpoints = 100;
 maxHp = hitpoints;
 
