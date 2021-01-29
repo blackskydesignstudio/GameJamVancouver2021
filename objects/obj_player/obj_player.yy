@@ -74,7 +74,7 @@
             "resourceFilter": 1023,
             "value": "100",
             "varName": "hitpoints",
-            "varType": 0
+            "varType": 1
         }
     ],
     "solid": false,
