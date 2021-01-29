@@ -14,7 +14,7 @@ if (menu_control) {
 		}
 	}
 
-	if (keyboard_check_pressed(vk_space)) {
+	if (keyboard_check_pressed(vk_space) && menuVisable == true) {
 		menuCommitted = menu_cursor;
 		menu_control = false;
 	}
@@ -36,6 +36,19 @@ if (menuCommitted == 1) {
 	menuCommitted = -1
 }
 
+//  Fade intro credits
+if(fadeText) {
+	if (fadeTextAlphaStart < 1) {
+	fadeTextAlphaStart += 0.02;	
+	}
+}
+
+if (fadeTextDown) {
+	if (fadeTextAlphaStart > 0) {
+	fadeTextAlphaStart -= 0.02;
+	}
+}
+
 //  Flash effect
 if (flashScreen) {
 	flashAlphaStart += 0.02; 	
@@ -50,4 +63,8 @@ if (flashAlphaStart == 1) {
 // Fade Screen
 if (fadeScreen) {
 	fadeAlphaStart += 0.03;	
+}
+
+if (menuVisable) {
+	layer_background_visible(backID, true);	
 }

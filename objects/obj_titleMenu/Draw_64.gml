@@ -9,8 +9,15 @@ draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 
+// Draw intro text
+if (textVisable) {
+	draw_set_alpha(fadeTextAlphaStart);
+	draw_text(room_width /2, room_height /2, introCredit[currentText]);	
+}
+
 // draw the menu items
 if (menuVisable) {
+	draw_set_alpha(1);
 for(var i = 0; i < menuItems; i++) {
 	var txt = menu[i];
 	
