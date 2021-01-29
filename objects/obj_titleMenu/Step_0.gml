@@ -22,10 +22,32 @@ if (menu_control) {
 
 //  Room changes control
 if (menuCommitted == 0) {
+	audio_sound_gain(sou_TitleMusicLoop, 0, 1000);
 	room_goto(room_Credits)	
+	audio_stop_all();
 }
 
 if (menuCommitted == 1) {
+	flashScreen = true;
 	audio_sound_gain(sou_TitleMusicLoop, 0, 1000);
-	room_goto(room_MainGame);	
+	alarm[0] = room_speed * 5;
+	alarm[1] = room_speed * 3;	
+	audio_stop_all();
+	menuCommitted = -1
+}
+
+//  Flash effect
+if (flashScreen) {
+	flashAlphaStart += 0.02; 	
+}
+
+if (flashAlphaStart == 1) {
+	flashAlphaStart -= 0.02;
+	flashScreen = false;
+	menuVisable = false;
+}
+
+// Fade Screen
+if (fadeScreen) {
+	fadeAlphaStart += 0.03;	
 }

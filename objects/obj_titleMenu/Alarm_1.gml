@@ -1,0 +1,2 @@
+fadeScreen = true;
+//menuVisable = false;

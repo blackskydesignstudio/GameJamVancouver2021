@@ -17,3 +17,11 @@ menu_control = true;
 
 //  Var is store menu choice
 menuCommitted = -1;
+
+// Vars to control screen flash
+flashScreen = false; 
+flashAlphaStart = 0;
+
+//  Vars to control screen fade
+fadeScreen = false;
+fadeAlphaStart = 0;

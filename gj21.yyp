@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "9dd66153-9b22-4179-9674-6e020022600e",
+            "Value": {
+                "id": "73e57809-73b0-4c20-8abe-6781594f1386",
+                "resourcePath": "objects\\obj_creditsScroll\\obj_creditsScroll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ef47c78-c9a7-4ccc-8103-879e47dfb590",
             "Value": {
                 "id": "b9037d2f-6161-451e-94db-9e50d6f7fcb1",
