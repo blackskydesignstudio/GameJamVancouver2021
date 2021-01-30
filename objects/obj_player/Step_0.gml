@@ -11,6 +11,7 @@ layer_hspeed(bkLay8, 0);
 // when there is no input from the player, reutrn to an idle state
 if (state == PLAYERSTATE.IDLE) {
 	sprite_index = spr_player;	
+	image_index = 0;
 }
 
 //  ****** PLAYER MOVEMENT ******
@@ -42,7 +43,8 @@ if(keyboard_check(ord("A"))) {
 		layer_hspeed(bkLay7, -8);
 		layer_hspeed(bkLay8, -8);
 } else {
-	hsp = 0; 	
+	hsp = 0; 
+	state = PLAYERSTATE.IDLE;
 }
 //  Checks if play is holding both A and D keys.
 if(keyboard_check(ord("A")) && keyboard_check(ord("D"))) {

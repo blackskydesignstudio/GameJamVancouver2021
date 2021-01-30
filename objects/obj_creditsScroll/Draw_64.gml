@@ -9,6 +9,4 @@ draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
 
-draw_text(x /2, y/2, "test.");
-
-draw_text(x /2, y/2, "Credits screen \nPress SPACE to return to Title.");
+draw_text(x /2, y/2, "Credits screen. Press SPACE to return to Title.");
