@@ -55,6 +55,8 @@ if(keyboard_check_pressed(vk_space) && grounded == true){
 	vsp = -25;
 	grounded = false;
 	state = PLAYERSTATE.JUMPING;
+	sprite_index =  spr_player_jump;
+	image_speed = 1;
 }
 
 // ******  Player Gravity  ******
