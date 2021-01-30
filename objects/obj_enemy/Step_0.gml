@@ -7,13 +7,24 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 // Enemy movement pathing
 	mp_potential_step(obj_player.x, obj_player.y, enemySpeed, false);
 	
+	// emeny facing direction
+	if(obj_player.x > obj_enemy.x){image_xscale = 1;}
+	else{image_xscale = -1}
+	
 //enemy attack
 
-	if distance_to_object(obj_player) < 20 {sprite_index = spr_enemy_attack;  
-											obj_player.hitpoints -= attackDamage;}
-											// attack is damaging player but way too fast
-	else {sprite_index = spr_enemy}
-	
+	if (distance_to_object(obj_player) < 20){
+		
+		sprite_index = spr_enemy_attack;	
+		//below handles attack speed 
+	if (attackAvailable == true){
+								obj_player.hitpoints -= attackDamage;
+								attackAvailable = false;
+								alarm_set(0, 40);	
+								}																			
+		
+}
+else {sprite_index = spr_enemy}
 	
 //  ****** ENEMY COLLISIONS ******
 //  Enemy collision with ground;
