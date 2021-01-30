@@ -20,3 +20,6 @@ if(place_meeting(x, y + vsp, obj_wall)) {
 }
 
 y += vsp;
+
+//  Dread rotates based on player position in level
+image_angle = point_direction(x, y, obj_player.x, obj_player.y);
