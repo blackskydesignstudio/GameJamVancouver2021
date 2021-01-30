@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "33980770-b712-4090-8abd-2e4e61833c87",
+            "Value": {
+                "id": "83ca2d5b-bb90-4c0a-88e0-7921534c8f12",
+                "resourcePath": "sprites\\spr_enemy_destroy\\spr_enemy_destroy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "35e3448b-e4d3-43ae-848b-6b581d4e0cf9",
             "Value": {
                 "id": "0d35c87d-1c0a-485c-a01b-e333d8198353",
@@ -356,14 +364,6 @@
                 "id": "b313cb02-d236-4021-8275-364d7916a73d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "a9fea648-b63d-4618-8e5c-5a8429ef3bbc",
-            "Value": {
-                "id": "355e2780-1898-4666-b558-e62c00502a27",
-                "resourcePath": "sprites\\spr_StartButton\\spr_StartButton.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

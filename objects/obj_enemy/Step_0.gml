@@ -26,7 +26,6 @@ if(place_meeting(x, y + vsp, obj_wall)) {
 
 y += vsp;
 
-//  If enemy HP reaches zero, destroy instance
 if (hitpoints <= 0) {
-	instance_destroy(self);	
-}
+		instance_destroy(self);
+	}
