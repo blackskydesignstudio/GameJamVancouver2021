@@ -1,0 +1,1 @@
+attackAvailable = true;
