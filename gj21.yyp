@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "12d0c37e-e8f0-43b5-910d-469e0cb06abd",
-            "Value": {
-                "id": "e0f80d4a-2fc3-4884-897f-bfaf3a5b6234",
-                "resourcePath": "views\\12d0c37e-e8f0-43b5-910d-469e0cb06abd.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "14243c72-8684-42ed-a092-d77b2009a330",
             "Value": {
                 "id": "f32c6d2b-4c2d-4889-8941-c20e36dfacb3",
@@ -132,14 +124,6 @@
                 "id": "83ca2d5b-bb90-4c0a-88e0-7921534c8f12",
                 "resourcePath": "sprites\\spr_enemy_destroy\\spr_enemy_destroy.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3565a768-428f-4080-bed2-f918bca6c6fa",
-            "Value": {
-                "id": "88b039b7-3fef-4ca3-b91a-4aa73597ad8c",
-                "resourcePath": "views\\3565a768-428f-4080-bed2-f918bca6c6fa.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -471,14 +455,6 @@
             }
         },
         {
-            "Key": "cbf9c408-d6c5-4375-90fa-85dcdbdaa955",
-            "Value": {
-                "id": "1207ca3c-17d8-42e9-b7e5-58852a2cdcd8",
-                "resourcePath": "views\\cbf9c408-d6c5-4375-90fa-85dcdbdaa955.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "d1014f43-6adf-4cc0-a963-b2553b44684b",
@@ -503,6 +479,14 @@
             }
         },
         {
+            "Key": "dff7972d-c02b-4ddd-a820-866da6d565d7",
+            "Value": {
+                "id": "bcd9a37b-49bf-4d0e-8b85-6187e67ee644",
+                "resourcePath": "sprites\\spr_friendSpawn\\spr_friendSpawn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e134c5e1-26e1-48ee-b6e1-7ac60368310a",
             "Value": {
                 "id": "f3cb0548-6314-4aa9-9076-54326b75ef05",
@@ -516,6 +500,14 @@
                 "id": "254eafb8-2c69-40f5-9ca4-9caa971617a9",
                 "resourcePath": "rooms\\room_Credits\\room_Credits.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f3dd7050-514a-48c4-9507-3255fa85e5df",
+            "Value": {
+                "id": "b0b00c90-6331-4f34-a2e7-c2112dd2fc1f",
+                "resourcePath": "objects\\obj_freindSpawn\\obj_freindSpawn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
