@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "159b693a-a892-4de1-bb6d-d7527da57490",
+            "Value": {
+                "id": "6824066a-1a15-4ac0-aaee-7a9582612e47",
+                "resourcePath": "sounds\\sou_IntroMusicLoop\\sou_IntroMusicLoop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1a5bab4d-66e2-47d2-9352-c307e9af46cb",
             "Value": {
                 "id": "d3e0e38e-40f1-4c9c-9d6a-3a44eeb53721",
