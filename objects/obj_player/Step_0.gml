@@ -1,3 +1,13 @@
+//  Parallax Scrolling  **enter at your own risk**
+layer_hspeed(bkLay1, 0);
+layer_hspeed(bkLay2, 0);
+layer_hspeed(bkLay3, 0);
+layer_hspeed(bkLay4, 0);
+layer_hspeed(bkLay5, 0);
+layer_hspeed(bkLay6, 0);
+layer_hspeed(bkLay7, 0);
+layer_hspeed(bkLay8, 0);
+
 // when there is no input from the player, reutrn to an idle state
 if (state == PLAYERSTATE.IDLE) {
 	sprite_index = spr_player;	
@@ -7,10 +17,30 @@ if (state == PLAYERSTATE.IDLE) {
 //  Left and right movement
 if(keyboard_check(ord("A"))) {
 	hsp = -7;	
+	image_xscale = -1;
 	state = PLAYERSTATE.WALK;
+		// Parallax Scrolling
+		layer_hspeed(bkLay1, 0.5);
+		layer_hspeed(bkLay2, 3);
+		layer_hspeed(bkLay3, 3.5);
+		layer_hspeed(bkLay4, 0.5);
+		layer_hspeed(bkLay5, 1.25);
+		layer_hspeed(bkLay6, 1);
+		layer_hspeed(bkLay7, 8);
+		layer_hspeed(bkLay8, 8);
 }else if(keyboard_check(ord("D"))) {
 	hsp = 7;
+	image_xscale = 1;
 	state = PLAYERSTATE.WALK;
+		//Parallax Scrolling
+		layer_hspeed(bkLay1, -0.5);
+		layer_hspeed(bkLay2, -3);
+		layer_hspeed(bkLay3, -3.5);
+		layer_hspeed(bkLay4, -0.5);
+		layer_hspeed(bkLay5, -1.25);
+		layer_hspeed(bkLay6, -1);
+		layer_hspeed(bkLay7, -8);
+		layer_hspeed(bkLay8, -8);
 } else {
 	hsp = 0; 	
 }

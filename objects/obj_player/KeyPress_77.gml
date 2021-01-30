@@ -3,5 +3,5 @@
 state = PLAYERSTATE.ATTACK_MEELE;
 sprite_index = spr_player1_attack;	
 image_speed = 1;
-obj_enemy.hitpoints -= attackDamage;
+
 

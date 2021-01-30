@@ -28,3 +28,12 @@ enum PLAYERSTATE {
 	DEAD
 }
 
+//  Variables used to control parallax scrolling
+bkLay1 = layer_get_id("Background_1");
+bkLay2 = layer_get_id("Background_2");
+bkLay3 = layer_get_id("Background_3");
+bkLay4 = layer_get_id("Background_4");
+bkLay5 = layer_get_id("Background_5");
+bkLay6 = layer_get_id("Background_6");
+bkLay7 = layer_get_id("Background_7");
+bkLay8 = layer_get_id("Background_8");

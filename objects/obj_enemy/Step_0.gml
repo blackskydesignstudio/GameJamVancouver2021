@@ -9,9 +9,6 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 	
 //enemy attack
 
-
-
-
 	if distance_to_object(obj_player) < 20 {sprite_index = spr_enemy_attack;  
 											obj_player.hitpoints -= attackDamage;}
 											// attack is damaging player but way too fast
@@ -29,3 +26,7 @@ if(place_meeting(x, y + vsp, obj_wall)) {
 
 y += vsp;
 
+//  If enemy HP reaches zero, destroy instance
+if (hitpoints <= 0) {
+	instance_destroy(self);	
+}

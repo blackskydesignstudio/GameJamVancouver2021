@@ -5,7 +5,7 @@ grav = 0.1;  //height thta the enemy will jump lower number is
 enemySpeed = 5; // variable to set enemy speed
 
 attackDamage = 10;
-
+hitpoints = 20;
 
 
 // Basic enemy patrol variables 
