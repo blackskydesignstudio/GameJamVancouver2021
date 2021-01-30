@@ -8,7 +8,7 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 if(instance_exists(obj_enemy)){
 	mp_potential_step(obj_enemy.x, obj_enemy.y, friendSpeed, false);
 	
-	// emeny facing direction
+	// friend facing direction
 	if(obj_enemy.x > obj_friend.x){image_xscale = 1;}
 	else{image_xscale = -1}
 	
@@ -19,9 +19,9 @@ if(instance_exists(obj_enemy)){
 		sprite_index = spr_friend_attack;	
 		//below handles attack speed 
 	if (attackAvailable == true){
-								//obj_enemy.hitpoints -= attackDamage;
+								
 								attackAvailable = false;
-								alarm_set(0, 40);	
+								alarm_set(0, 200);	
 								}																			
 		
 }
