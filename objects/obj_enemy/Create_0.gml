@@ -6,7 +6,7 @@ enemySpeed = 5; // variable to set enemy speed
 
 attackDamage = 10;
 hitpoints = 20;
-
+attackAvailable = true;
 // Basic enemy patrol variables 
 //enemyLeft = x - 255;
 //enemyPath = path_add();
