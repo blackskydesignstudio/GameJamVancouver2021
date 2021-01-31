@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2f28313a-cb96-4e27-b30e-4179ebf31199",
+            "Value": {
+                "id": "e18166cb-91b4-41d2-9b7e-439fa45bdf44",
+                "resourcePath": "objects\\obj_platform3\\obj_platform3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3246dbb7-c62b-4296-8cae-39e3e44baa04",
             "Value": {
                 "id": "cc3e9bdd-7530-44c3-86ce-281dd241f147",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "7c6717cc-f064-47cf-a6ca-74f37f23eec1",
+            "Value": {
+                "id": "8bc8cb9d-92a8-4781-9a87-70d98cad2b40",
+                "resourcePath": "objects\\obj_platform1\\obj_platform1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7ec73219-0af1-4c91-aebb-7f520ed86aa0",
             "Value": {
                 "id": "6b936d12-c8aa-491f-942d-c7114ee04898",
@@ -340,6 +356,14 @@
                 "id": "fe0fe972-1179-462c-9a41-c8b1bac58de2",
                 "resourcePath": "sprites\\spr_platform1\\spr_platform1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "857a8df7-68c1-419a-a6bf-c7230b84e207",
+            "Value": {
+                "id": "01f0559b-4ef4-48e3-8a40-b09746a95059",
+                "resourcePath": "objects\\obj_platform4\\obj_platform4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -620,6 +644,14 @@
                 "id": "f3cb0548-6314-4aa9-9076-54326b75ef05",
                 "resourcePath": "views\\e134c5e1-26e1-48ee-b6e1-7ac60368310a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e2e4c6b6-0f64-4ddf-804d-059a1505eed3",
+            "Value": {
+                "id": "7cd7fc9a-2ca1-4fae-94c1-2f6f30c22e97",
+                "resourcePath": "objects\\obj_platform2\\obj_platform2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
