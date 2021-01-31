@@ -10,7 +10,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 
 // Display scrolling credits
-draw_text(room_width /2, yScroll, "Credits screen. Press SPACE to return to Title. \n 1 \n 2");
+draw_text(room_width /2, yScroll, "THANKS FOR PLAYING!! \n\n\nCopyright 2021 Team BlackSky Design \n\nGlobal Game Jam Vancouver 2021 Entry \n\n\nThe Team: \n\nLead Design/Programming: Desmand King \n\nLead Programmer: Lawrence Jest \n\nArt Director: Jocelyn \n\nMusic Supervisor: Scott \n\nLead Audio Engineer: Daniel");
 
 
 //Display exit message
