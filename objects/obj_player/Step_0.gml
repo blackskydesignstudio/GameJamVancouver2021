@@ -111,6 +111,7 @@ if(place_meeting(x, y + vsp, obj_enemy)) {
 // Player Death State
 if (hitpoints <= 0) {
 	 state = PLAYERSTATE.DEAD
+	 global.playerDeath = true;
 	 sprite_index = spr_player_death;
 	 image_speed = 1;
 }
