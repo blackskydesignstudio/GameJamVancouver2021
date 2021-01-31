@@ -1,4 +1,5 @@
 /// Initiate Music for Credits Screen
+audio_set_master_gain(0, 0.5);
 
 bgm_CreditsScreen = audio_play_sound(sou_CreditsMusicLoop,0,false);
 

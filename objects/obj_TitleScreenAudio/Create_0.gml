@@ -1,3 +1,5 @@
+audio_set_master_gain(0, 0.5);
+
 /// Initiate Music for Title Scree
 // audio_sound_gain(sou_TitleMusicLoop, 0.5, 1);
 

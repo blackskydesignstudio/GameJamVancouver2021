@@ -1,4 +1,5 @@
 /// Initiate Music for Level1 Screen
+audio_set_master_gain(0, 0.5);
 
 bgm_Level1Screen = audio_play_sound(sou_Level1Music,0,false);
 
