@@ -41,5 +41,6 @@ if(place_meeting(x, y + vsp, obj_wall)) {
 y += vsp;
 
 if (hitpoints <= 0) {
+	audio_play_sound(orcHurt,1,false);
 		instance_destroy(self);
 	}
