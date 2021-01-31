@@ -14,7 +14,6 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 //enemy attack
 
 	if (distance_to_object(obj_player) < 20){
-		
 		sprite_index = spr_enemy_attack;	
 		//below handles attack speed 
 	if (attackAvailable == true){
@@ -23,8 +22,9 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 								alarm_set(0, 40);	
 								}																			
 		
+} else {
+	sprite_index = spr_enemy
 }
-else {sprite_index = spr_enemy}
 	
 //  ****** ENEMY COLLISIONS ******
 //  Enemy collision with ground;

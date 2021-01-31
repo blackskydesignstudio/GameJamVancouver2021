@@ -9,9 +9,11 @@ layer_hspeed(bkLay7, 0);
 layer_hspeed(bkLay8, 0);
 
 // when there is no input from the player, reutrn to an idle state
+
 if (state == PLAYERSTATE.IDLE) {
 	sprite_index = spr_player;	
 	image_index = 0;
+	hsp = 0;
 }
 
 //  ****** PLAYER MOVEMENT ******
@@ -44,7 +46,8 @@ if(keyboard_check(ord("A"))) {
 		layer_hspeed(bkLay8, -8);
 } else {
 	hsp = 0; 
-	state = PLAYERSTATE.IDLE;
+	//image_index = 0;
+	//state = PLAYERSTATE.IDLE;
 }
 //  Checks if play is holding both A and D keys.
 if(keyboard_check(ord("A")) && keyboard_check(ord("D"))) {
@@ -52,10 +55,14 @@ if(keyboard_check(ord("A")) && keyboard_check(ord("D"))) {
 }
 //  Player Jump using spacebar
 if(keyboard_check_pressed(vk_space) && grounded == true){
-	vsp = -25;
-	grounded = false;
 	state = PLAYERSTATE.JUMPING;
 	sprite_index =  spr_player_jump;
+	image_speed = 1;
+}
+// Player Attack using 'M'
+if(keyboard_check_pressed(ord("M"))) {
+	state = PLAYERSTATE.ATTACK_MEELE;
+	sprite_index = spr_player1_attack;	
 	image_speed = 1;
 }
 
@@ -86,7 +93,20 @@ if(place_meeting(x, y + vsp, obj_wall)) {
 
 y += vsp;
 
+// player collide with enemy
+if(place_meeting(x + hsp, y, obj_enemy)) {
+	while(!place_meeting(x + sign(hsp), y, obj_enemy)) {
+		x = x + sign(hsp);
+	}
+	hsp = 0;	
+}
+if(place_meeting(x, y + vsp, obj_enemy)) {
+	while(!place_meeting(x, y + sign(vsp), obj_enemy)) {
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+	grounded = true;
+}
+
 //Temp function call used for debugging.  Uncomment to use.
 //show_debug_message(state);
-//function to show player hitpoints
-//if(hitpoints<100)show_debug_message(hitpoints);
