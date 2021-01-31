@@ -1,4 +1,5 @@
 draw_texture_flush();
+
 //  Array to store elements of the main menu
 menu[1] = "  Start";
 menu[0] = "  Credits";
