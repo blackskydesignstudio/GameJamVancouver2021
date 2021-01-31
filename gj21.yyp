@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "15998ab2-6689-41a3-a787-55fac860f430",
+            "Value": {
+                "id": "73fe2b0b-a1e2-4d1f-89ff-86f262a4290a",
+                "resourcePath": "sprites\\spr_dreddSpawn\\spr_dreddSpawn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "159b693a-a892-4de1-bb6d-d7527da57490",
             "Value": {
                 "id": "6824066a-1a15-4ac0-aaee-7a9582612e47",
@@ -700,6 +708,14 @@
                 "id": "b313cb02-d236-4021-8275-364d7916a73d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aace9b3a-16d8-4be7-9b0e-6865a8d86879",
+            "Value": {
+                "id": "8d647c43-edd4-44f1-8c3a-d3661a9c5d8f",
+                "resourcePath": "objects\\obj_dreadSpawn\\obj_dreadSpawn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
