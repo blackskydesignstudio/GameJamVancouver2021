@@ -60,6 +60,7 @@ if(keyboard_check_pressed(vk_space) && grounded == true){
 	state = PLAYERSTATE.JUMPING;
 	sprite_index =  spr_player_jump;
 	image_speed = 1;
+	audio_play_sound(choose(jump1,jump2,jump3,jump4),1,false);
 }
 // Player Attack using 'M'
 if(keyboard_check_pressed(ord("M"))) {
