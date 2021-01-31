@@ -6,7 +6,7 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 
 // Enemy movement pathing
 if (instance_exists(obj_player)) {
-	mp_potential_step(obj_player.x, obj_player.y, enemySpeed, true);
+	mp_potential_step(obj_player.x, obj_player.y, enemySpeed, false);
 	
 	// emeny facing direction
 	if(obj_player.x > obj_enemy.x){image_xscale = 1;}
