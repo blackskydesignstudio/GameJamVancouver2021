@@ -2,7 +2,8 @@ hsp = 0;
 vsp = 0; 
 grav = 0.1;  //height thta the enemy will jump lower number is 
 			 // higher jump
-enemySpeed = 5; // variable to set enemy speed
+enemySpeed = choose(1, 2.5, 3, 5, 6); // variable to set enemy speed
+
 
 attackDamage = 10;
 hitpoints = 20;

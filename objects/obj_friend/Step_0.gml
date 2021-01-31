@@ -5,7 +5,7 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 }
 
 // friend movement pathing
-if(instance_exists(obj_enemy)){
+if(instance_exists(obj_enemy) && distance_to_object(obj_enemy) <= 250){
 	mp_potential_step(obj_enemy.x, obj_enemy.y, friendSpeed, false);
 	
 	// friend facing direction
