@@ -1,6 +1,4 @@
 obj_player.hitpoints -=1;
-for(var i = 1; i<=5; i++){
-	
-}
 
-audio_play_sound(hurt1,1,false);
+
+audio_play_sound(choose(hurt1,hurt2,hurt3,hurt4,hurt5),1,false);

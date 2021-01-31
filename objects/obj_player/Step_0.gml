@@ -66,6 +66,7 @@ if(keyboard_check_pressed(ord("M"))) {
 	state = PLAYERSTATE.ATTACK_MEELE;
 	sprite_index = spr_player1_attack;	
 	image_speed = 1;
+	audio_play_sound(choose(swordSwing1,swordSwing2,swordSwing3, swordSwing4),1,false);
 }
 
 // ******  Player Gravity  ******
