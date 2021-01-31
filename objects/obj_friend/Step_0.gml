@@ -26,9 +26,12 @@ if(instance_exists(obj_enemy) && distance_to_object(obj_enemy) <= 250){
 		
 }
 else {sprite_index = spr_friend}
-}	else{mp_potential_step(obj_player.x, obj_player.y, friendSpeed, false);
+}	else {
+	if(instance_exists(obj_player)) {
+	mp_potential_step(obj_player.x, obj_player.y, friendSpeed, false);
 	sprite_index = spr_friend;
 	}
+}
 //  ****** friend COLLISIONS ******
 //  friend collision with ground;
 if(place_meeting(x, y + vsp, obj_wall)) {
