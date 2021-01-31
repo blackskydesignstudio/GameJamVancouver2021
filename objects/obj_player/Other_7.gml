@@ -1,5 +1,6 @@
 if (sprite_index == spr_player1_attack) {
-	state = PLAYERSTATE.IDLE;	
+	
+	state = PLAYERSTATE.IDLE;
 }
 
 if (sprite_index == spr_player_jump) {

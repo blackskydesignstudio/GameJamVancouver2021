@@ -31,6 +31,7 @@ if(keyboard_check(ord("A"))) {
 		layer_hspeed(bkLay6, 1);
 		layer_hspeed(bkLay7, 8);
 		layer_hspeed(bkLay8, 8);
+		
 }else if(keyboard_check(ord("D"))) {
 	hsp = 7;
 	image_xscale = 1;
@@ -44,8 +45,9 @@ if(keyboard_check(ord("A"))) {
 		layer_hspeed(bkLay6, -1);
 		layer_hspeed(bkLay7, -8);
 		layer_hspeed(bkLay8, -8);
+		
 } else {
-	hsp = 0; 
+	hsp = 0; 	
 	//image_index = 0;
 	//state = PLAYERSTATE.IDLE;
 }
