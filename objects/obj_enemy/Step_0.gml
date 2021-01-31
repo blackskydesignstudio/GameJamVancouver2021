@@ -14,7 +14,7 @@ if (instance_exists(obj_player)) {
 	
 //enemy attack
 
-	if (distance_to_object(obj_player) < 20){
+	if (distance_to_object(obj_player) < 5){
 		sprite_index = spr_enemy_attack;	
 		//below handles attack speed 
 	if (attackAvailable == true){
