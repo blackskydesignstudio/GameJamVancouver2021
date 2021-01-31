@@ -5,7 +5,8 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 }
 
 // Enemy movement pathing
-	mp_potential_step(obj_player.x, obj_player.y, enemySpeed, false);
+if (instance_exists(obj_player)) {
+	mp_potential_step(obj_player.x, obj_player.y, enemySpeed, true);
 	
 	// emeny facing direction
 	if(obj_player.x > obj_enemy.x){image_xscale = 1;}
@@ -24,6 +25,7 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 		
 } else {
 	sprite_index = spr_enemy
+}
 }
 	
 //  ****** ENEMY COLLISIONS ******

@@ -108,5 +108,12 @@ if(place_meeting(x, y + vsp, obj_enemy)) {
 	grounded = true;
 }
 
+// Player Death State
+if (hitpoints <= 0) {
+	 state = PLAYERSTATE.DEAD
+	 sprite_index = spr_player_death;
+	 image_speed = 1;
+}
+
 //Temp function call used for debugging.  Uncomment to use.
 //show_debug_message(state);

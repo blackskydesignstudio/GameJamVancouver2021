@@ -7,3 +7,7 @@ if (sprite_index == spr_player_jump) {
 	grounded = false;
 	state = PLAYERSTATE.IDLE;	
 }
+
+if (sprite_index == spr_player_death) {
+	instance_destroy();
+}
