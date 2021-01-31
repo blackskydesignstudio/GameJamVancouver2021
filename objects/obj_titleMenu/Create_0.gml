@@ -46,3 +46,7 @@ backID = layer_background_get_id(backLayerID);
 
 //  Start Intro with a black background
 layer_background_visible(backID, false);
+
+// Main title
+mainTitle = "Darkest\n     Before\n         Dawn";
+mainTitleVis = false;

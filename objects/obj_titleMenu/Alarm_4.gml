@@ -1,1 +1,2 @@
 menuVisable = true;
+mainTitleVis = true;
