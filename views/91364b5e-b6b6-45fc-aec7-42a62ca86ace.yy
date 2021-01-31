@@ -15,7 +15,8 @@
         "7c6717cc-f064-47cf-a6ca-74f37f23eec1",
         "e2e4c6b6-0f64-4ddf-804d-059a1505eed3",
         "2f28313a-cb96-4e27-b30e-4179ebf31199",
-        "857a8df7-68c1-419a-a6bf-c7230b84e207"
+        "857a8df7-68c1-419a-a6bf-c7230b84e207",
+        "a261570e-df8f-4df1-b261-62c3485f3aa6"
     ],
     "filterType": "GMObject",
     "folderName": "Main Lvl",
