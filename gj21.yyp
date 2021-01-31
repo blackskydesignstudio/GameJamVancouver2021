@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "603f90fa-7a05-4f9d-acfe-242ba34c4926",
+            "Value": {
+                "id": "076b7256-02b2-4618-a57e-2db481b23bf8",
+                "resourcePath": "sprites\\spr_pitDespawn\\spr_pitDespawn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62dd34d9-ad39-4db6-bc2e-d5d00c553631",
             "Value": {
                 "id": "a0c36a17-62b4-4b8b-8028-ae634f502d40",
@@ -844,6 +852,14 @@
                 "id": "be4cb6d9-556a-4dde-b6ad-ebbad6fda4cd",
                 "resourcePath": "views\\c39ef820-30ce-4776-a6a3-0c37d81be299.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c6956862-6135-4a4c-b223-484146632e3b",
+            "Value": {
+                "id": "c1d9f2fb-8514-4c40-81dc-71a3b5f30934",
+                "resourcePath": "objects\\obj_pitDespawn\\obj_pitDespawn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
