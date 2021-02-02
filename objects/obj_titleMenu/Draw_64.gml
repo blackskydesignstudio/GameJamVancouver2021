@@ -1,3 +1,6 @@
+// Testing
+TestingScript(guiWidth, guiHeight); 
+ 
 //  Set GUI visablity
 draw_set_alpha(1);
 
@@ -12,7 +15,7 @@ draw_set_valign(fa_bottom);
 // Draw intro text
 if (textVisable) {
 	draw_set_alpha(fadeTextAlphaStart);
-	draw_text(room_width /2, room_height /2, introCredit[currentText]);	
+	draw_text(guiWidth /2, guiHeight /2, introCredit[currentText]);	
 }
 
 // draw the menu items
@@ -29,7 +32,8 @@ for(var i = 0; i < menuItems; i++) {
 	var x2 = guiWidth /2;
 	var y2 = guiHeight /2 + 250 - (menuItemHeight * (i * 2));
 	 
-	draw_text(x2, y2, txt); // draw completed menu to screen
+	draw_text(x2, y2, txt); // draw completed menu to screen offset towards 
+						   //  bottom of screen to fit all menu items.
 	 
 }
 } 
@@ -38,8 +42,8 @@ for(var i = 0; i < menuItems; i++) {
 if (mainTitleVis) {
 	draw_set_alpha(1);
 	draw_set_halign(fa_right);
-	draw_set_valign(fa_middle);
+	draw_set_valign(fa_bottom);
 	draw_set_font(font_titleFont);
 	draw_set_color(c_white);	
-	draw_text(room_width/ 2 - 55, room_height /2 - 55, mainTitle);
+	draw_text(guiWidth/ 2, guiHeight /2 + titleFontSz, mainTitle);
 }

@@ -6,9 +6,11 @@ menu[0] = "  Credits";
 menuItems = array_length_1d(menu);
 
 //  Variables to align menu elements
+display_set_gui_size(room_width, room_height);
 guiWidth = display_get_gui_width();
 guiHeight = display_get_gui_height();
 menuItemHeight = font_get_size(font_mainFont);
+
 menuVisable = false;
 
 // Menu cursor start place
@@ -50,5 +52,6 @@ backID = layer_background_get_id(backLayerID);
 layer_background_visible(backID, false);
 
 // Main title
-mainTitle = "Darkest\n     Before\n         Dawn";
+mainTitle = "Darkest\n Before\n Dawn";
 mainTitleVis = false;
+titleFontSz = font_get_size(font_titleFont);
