@@ -1,3 +1,6 @@
+//  Testing ****
+TestingScript(guiWidth2, guiHeight2); 
+
 //  Set GUI visablity
 //draw_set_alpha(1);
 
