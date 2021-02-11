@@ -1,11 +1,13 @@
+image_xscale = 1.25;
+image_yscale = 1.25;
+
 hsp = 0; 
 vsp = 0; 
 grav = 0.1;  //height thta the enemy will jump lower number is 
 			 // higher jump
 enemySpeed = choose(1, 2.5, 3, 5, 6); // variable to set enemy speed
 
-
-attackDamage = 10;
+attackDamage = 5;
 hitpoints = 20;
 attackAvailable = true;
 

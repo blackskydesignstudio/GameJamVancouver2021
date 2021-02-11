@@ -6,7 +6,7 @@ if (sprite_index == spr_player1_attack) {
 }
 
 if (sprite_index == spr_player_jump) {
-	vsp = -25;
+	vsp = -29;
 	grounded = false;
 	state = PLAYERSTATE.IDLE;	
 }

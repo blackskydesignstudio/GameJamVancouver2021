@@ -7,6 +7,108 @@
     "option_lastchanged": "24 January 2021 16:04:14",
     "option_author": "DK",
     "option_sci_usesci": true
+}←be5f1418-b31b-48af-a023-f04cdf6e5121|{
+    "textureGroups": {
+        "Additions": [
+            {
+                "Key": 1,
+                "Value": {
+                    "id": "02d05ff0-658f-4c0e-9278-92b866384e3f",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "characters",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 2,
+                "Value": {
+                    "id": "c35473a4-00e3-4386-a2fc-177bb8878047",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "Fonts",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 3,
+                "Value": {
+                    "id": "9054ff8d-5860-48ec-afb7-2b7d7c7cd2cd",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "TheDread",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 4,
+                "Value": {
+                    "id": "1d63d4ac-f8e2-455a-ad06-c612e2e115b3",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "Platforms",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 5,
+                "Value": {
+                    "id": "b406577d-5ad9-48f9-bfcf-8bfc35aa9f91",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "Title",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 6,
+                "Value": {
+                    "id": "d4dfcab3-57a8-4426-8ae6-bad823f42032",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "BackMains",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            }
+        ],
+        "Checksum": "ࢺ懜璙ᓆ锯翋꤯맫",
+        "Deletions": [
+            
+        ],
+        "Ordering": [
+            
+        ]
+    }
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
     "targets": 461609314234257646
 }←7fa50043-cea6-4cd0-9521-a8ba8c6ea9f0|{

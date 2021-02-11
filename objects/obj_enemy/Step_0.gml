@@ -1,3 +1,4 @@
+distanceToPlayer = distance_to_object(obj_player);
 
 // Enemy gravity
 if (!place_meeting(x, y + 1, obj_wall)) {
@@ -5,12 +6,12 @@ if (!place_meeting(x, y + 1, obj_wall)) {
 }
 
 // Enemy movement pathing
-if (instance_exists(obj_player)) {
+if (instance_exists(obj_player) && distanceToPlayer < 540) {
 	mp_potential_step(obj_player.x, obj_player.y, enemySpeed, false);
 	
 	// emeny facing direction
-	if(obj_player.x > obj_enemy.x){image_xscale = 1;}
-	else{image_xscale = -1}
+	if(obj_player.x > obj_enemy.x){image_xscale = 1.25;}
+	else{image_xscale = -1.25}
 	
 //enemy attack
 

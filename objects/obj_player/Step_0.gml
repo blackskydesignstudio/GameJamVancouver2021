@@ -1,3 +1,4 @@
+#region Parallax Scrolling
 //  Parallax Scrolling  **enter at your own risk**
 layer_hspeed(bkLay1, 0);
 layer_hspeed(bkLay2, 0);
@@ -7,6 +8,7 @@ layer_hspeed(bkLay5, 0);
 layer_hspeed(bkLay6, 0);
 layer_hspeed(bkLay7, 0);
 layer_hspeed(bkLay8, 0);
+#endregion
 
 // when there is no input from the player, reutrn to an idle state
 
@@ -16,12 +18,14 @@ if (state == PLAYERSTATE.IDLE) {
 	hsp = 0;
 }
 
+#region Player Movement
 //  ****** PLAYER MOVEMENT ******
 //  Left and right movement
 if(keyboard_check(ord("A"))) {
 	hsp = -7;	
-	image_xscale = -1;
+	image_xscale = -1.25;
 	state = PLAYERSTATE.WALK;
+		#region Parallax Scrolling
 		// Parallax Scrolling
 		layer_hspeed(bkLay1, 0.5);
 		layer_hspeed(bkLay2, 3);
@@ -31,11 +35,13 @@ if(keyboard_check(ord("A"))) {
 		layer_hspeed(bkLay6, 1);
 		layer_hspeed(bkLay7, 8);
 		layer_hspeed(bkLay8, 8);
+		#endregion
 		
 }else if(keyboard_check(ord("D"))) {
 	hsp = 7;
-	image_xscale = 1;
+	image_xscale = 1.25;
 	state = PLAYERSTATE.WALK;
+	    #region Parallax Scrolling
 		//Parallax Scrolling
 		layer_hspeed(bkLay1, -0.5);
 		layer_hspeed(bkLay2, -3);
@@ -45,15 +51,28 @@ if(keyboard_check(ord("A"))) {
 		layer_hspeed(bkLay6, -1);
 		layer_hspeed(bkLay7, -8);
 		layer_hspeed(bkLay8, -8);
+		#endregion
 		
 } else {
 	hsp = 0; 	
 	//image_index = 0;
 	//state = PLAYERSTATE.IDLE;
 }
+#endregion
+
 //  Checks if play is holding both A and D keys.
 if(keyboard_check(ord("A")) && keyboard_check(ord("D"))) {
 	hsp = 0;
+		#region Parallax Scrolling
+		layer_hspeed(bkLay1, 0);
+		layer_hspeed(bkLay2, 0);
+		layer_hspeed(bkLay3, 0);
+		layer_hspeed(bkLay4, 0);
+		layer_hspeed(bkLay5, 0);
+		layer_hspeed(bkLay6, 0);
+		layer_hspeed(bkLay7, 0);
+		layer_hspeed(bkLay8, 0);
+		#endregion
 }
 //  Player Jump using spacebar
 if(keyboard_check_pressed(vk_space) && grounded == true){

@@ -1476,5 +1476,5 @@
     "sampleText": "abcdef ABCDEF\\n0123456789 .,<>\"'&!?\\nthe quick brown fox jumps over the lazy dog\\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\\nDefault character: ▯ (9647)",
     "size": 13,
     "styleName": "Regular",
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f"
+    "textureGroupId": "c35473a4-00e3-4386-a2fc-177bb8878047"
 }

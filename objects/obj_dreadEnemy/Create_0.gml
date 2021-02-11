@@ -1,7 +1,5 @@
+dreadSpeed = 7.35;
+image_xscale = 0.75;
 
-hsp = 0; 
-vsp = 0; 
-grav = 1;
-dreadSpeed = 1;
-
+audio_sound_gain(Dread, 1.1, 1);
 audio_play_sound(Dread, 1, true);
