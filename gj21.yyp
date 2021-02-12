@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "abddfd50-096c-47e1-825d-0a02ffc68127",
+            "Value": {
+                "id": "c0046f94-2a50-4e9a-8a12-a154c28622c0",
+                "resourcePath": "sprites\/spr_BSDlogo\/spr_BSDlogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac0fde98-88d2-498f-bfef-e61a9cd27fac",
             "Value": {
                 "id": "12df6b46-862d-415e-ba8b-de962791cc11",
@@ -978,7 +986,7 @@
             "Key": "d0684a29-24b5-4c6f-b5dd-2bb0f8042dd3",
             "Value": {
                 "id": "20bc932d-1a90-4d28-8980-e606dfc30aab",
-                "resourcePath": "objects\/obj_temp\/obj_temp.yy",
+                "resourcePath": "objects\/obj_preLoad\/obj_preLoad.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1034,7 +1042,7 @@
             "Key": "e22e663a-67ac-481e-aea0-50dcd48399c9",
             "Value": {
                 "id": "88ab0842-f794-4269-b2fa-0647e1de80f0",
-                "resourcePath": "rooms\/room_temp\/room_temp.yy",
+                "resourcePath": "rooms\/room_preLoad\/room_preLoad.yy",
                 "resourceType": "GMRoom"
             }
         },

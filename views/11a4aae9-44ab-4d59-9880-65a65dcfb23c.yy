@@ -12,7 +12,8 @@
         "dff7972d-c02b-4ddd-a820-866da6d565d7",
         "15998ab2-6689-41a3-a787-55fac860f430",
         "200fb65c-0f46-4480-91a6-042063f1b43c",
-        "a0c95d1e-4163-4fc6-9828-3bac4e6511b2"
+        "a0c95d1e-4163-4fc6-9828-3bac4e6511b2",
+        "abddfd50-096c-47e1-825d-0a02ffc68127"
     ],
     "filterType": "GMSprite",
     "folderName": "Misc Objs",

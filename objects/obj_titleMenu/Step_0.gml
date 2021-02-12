@@ -66,5 +66,6 @@ if (fadeScreen) {
 }
 
 if (menuVisable) {
+	layer_background_blend(backID, c_white);
 	layer_background_visible(backID, true);	
 }
