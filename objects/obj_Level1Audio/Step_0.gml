@@ -1,5 +1,11 @@
 /// Loop the music manually
 
+if (changeSong == true && songCheck == true) {
+	audio_stop_sound(forestAmbience);
+	bgm_Level1Screen = audio_play_sound(sou_Level1Music, 0, false);
+	audio_sound_set_track_position(bgm_Level1Screen, 3.5);
+	songCheck = false;
+}
 
 var _pos = audio_sound_get_track_position(bgm_Level1Screen);
 if(_pos>2000)

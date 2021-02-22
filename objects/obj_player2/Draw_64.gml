@@ -14,3 +14,20 @@ draw_sprite_stretched(spr_healthbar, 0, 1200, 25, (hitpoints/maxHp) * healthbarW
 draw_sprite(spr_healthbarBorder, 0, 1200, 25);
 
 
+
+
+draw_set_alpha(1);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_font(font_testing);
+draw_set_color(c_green);
+draw_text_transformed(room_width /2, room_height /2, "*Testing:" 
+				+ "\nPlayer HSP: " + string(hsp) 
+				+ "\nPlayer VSP: " + string(vsp) 
+				+ "\nPlayer State: " + string(state) 
+				+ "\nPlayer Grounded?: " + string(grounded)
+				+ "\nPlayer POS X: " + string(x)
+				+ "\nPlayer POS Y: " + string(y)
+				,1.5, 1.5, 0);
+
+

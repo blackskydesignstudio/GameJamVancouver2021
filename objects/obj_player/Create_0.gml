@@ -17,8 +17,6 @@ healthbarWidth = 292;
 //healthbar_X = camera_get_view_width(view_camera[0]);
 //healthbar_Y = camera_get_view_height(view_camera[0]);
 
-
-
 // Var to check if player is already in the air(prevents double jump)
 grounded = true;
 
@@ -27,12 +25,9 @@ state = PLAYERSTATE.IDLE
 
 //  Enums to track different player states during game
 enum PLAYERSTATE {
-	WALK, 
-	JUMPING,
-	ATTACK_MEELE,
-	IDLE,
-	DAMAGED,
-	DEAD
+	IDLE,			// 0
+	ATTACK_MEELE,	// 1
+	DEAD			// 2
 }
 
 #region Parallax Scrolling

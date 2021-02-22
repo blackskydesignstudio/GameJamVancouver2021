@@ -56,3 +56,11 @@ layer_background_blend(backID, c_black);
 mainTitle = "Darkest\n Before\n Dawn";
 mainTitleVis = false;
 titleFontSz = font_get_size(font_titleFont);
+
+//if (!browser_not_a_browser) {
+//	width = browser_width - 10;
+//	height = browser_height -10;
+//	layer_background_xscale(backID, width);
+//	layer_background_yscale(backID, height);
+//}
+layer_background_stretch(backID,true);

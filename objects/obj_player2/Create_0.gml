@@ -2,6 +2,7 @@ hsp = 0;
 vsp = 0; 
 grav = 1;
 
+// Rescale player sprite slightly bigger
 image_xscale = 1.25;
 image_yscale = 1.25;
 
@@ -16,22 +17,17 @@ healthbarWidth = 292;
 //healthbar_X = camera_get_view_width(view_camera[0]);
 //healthbar_Y = camera_get_view_height(view_camera[0]);
 
-
-
 // Var to check if player is already in the air(prevents double jump)
 grounded = true;
 
 // start the player in an idle state
-state = PLAYERSTATETEST.IDLE
+state = PLAYERSTATE2.IDLE
 
 //  Enums to track different player states during game
-enum PLAYERSTATETEST {
-	WALK, 
-	JUMPING,
-	ATTACK_MEELE,
-	IDLE,
-	DAMAGED,
-	DEAD
+enum PLAYERSTATE2 {
+	IDLE,			// 0
+	ATTACK_MEELE,	// 1
+	DEAD			// 2
 }
 
 #region Parallax Scrolling

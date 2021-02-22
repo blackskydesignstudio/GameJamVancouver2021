@@ -1,3 +1,3 @@
- state = PLAYERSTATETEST.DEAD
+ state = PLAYERSTATE2.DEAD
 	 global.playerDeath = true;
 instance_destroy(self);
